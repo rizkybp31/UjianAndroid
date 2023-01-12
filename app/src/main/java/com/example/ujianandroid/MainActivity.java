@@ -42,13 +42,13 @@ public class MainActivity extends AppCompatActivity {
                     daftar_nama.clear();
                     for(Integer i = 1; i <= counter; i++) {
                         if(counter >= 1 && counter <= 10) {
-                            daftar_nama.add( i + " " +  nama_lengkap.concat("Anak"));
+                            daftar_nama.add( i + ". " +  nama_lengkap.concat("Anak"));
                         } else if(counter >= 11 && counter <= 20) {
-                            daftar_nama.add( i + " " +  nama_lengkap.concat("Remaja"));
+                            daftar_nama.add( i + ". " +  nama_lengkap.concat("Remaja"));
                         } else if(counter >= 21 && counter <= 40) {
-                            daftar_nama.add( i + " " +  nama_lengkap.concat("Dewasa"));
+                            daftar_nama.add( i + ". " +  nama_lengkap.concat("Dewasa"));
                         } else {
-                            daftar_nama.add( i + " " +  nama_lengkap.concat("Tua"));
+                            daftar_nama.add( i + ". " +  nama_lengkap.concat("Tua"));
                         }
                         edNamaDepan.setText("");
                         edNamaBelakang.setText("");
